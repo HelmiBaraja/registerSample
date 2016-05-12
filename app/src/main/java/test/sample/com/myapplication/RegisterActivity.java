@@ -42,8 +42,8 @@ public class RegisterActivity extends AppCompatActivity implements DatePickerDia
         RGGender = (RadioGroup) findViewById(R.id.RGGender);
 
         progressRegister = new ProgressDialog(this);
-        progressRegister.setTitle("Registering");
-        progressRegister.setMessage("Please wait while we register your account");
+        progressRegister.setTitle("Loading");
+        progressRegister.setMessage("Tolong tunggu sekejap");
     }
 
     //onClick
